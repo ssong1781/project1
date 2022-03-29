@@ -1,0 +1,30 @@
+AnchorPane{
+	-fx-background-color:skyblue;
+}
+Label{
+	
+}
+TextField{
+	-fx-background-color: white , skyblue , skyblue;
+	-fx-background-radius:0;
+    -fx-background-insets:0, 0 0 1 0;
+    -fx-text-fill:white;
+    -fx-prompt-text-fill:black;
+}
+
+PasswordField{
+	-fx-background-color: white , skyblue , skyblue;
+	-fx-background-radius:0;
+    -fx-background-insets:0, 0 0 1 0;
+    -fx-text-fill:white;
+    -fx-prompt-text-fill:black;
+}
+
+Button{
+	-fx-background-radius:15;
+	-fx-background-color:skyblue ;
+	-fx-border-radius:15;
+	-fx-border-color:white ;
+	-fx-text-fill:white;
+}
+

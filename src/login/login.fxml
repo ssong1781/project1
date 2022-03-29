@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: skyblue;" stylesheets="@login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginController">
+   <children>
+      <Label layoutX="84.0" layoutY="68.0" text="Draw Imagine">
+         <font>
+            <Font name="Berlin Sans FB" size="60.0" />
+         </font>
+      </Label>
+      <Button id="loginbtn" fx:id="btnLogin" layoutX="100.0" layoutY="314.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="300.0" text="로그인">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button id="joinbtn" fx:id="btnSignUp" layoutX="100.0" layoutY="364.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="300.0" text="회원가입">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button id="cancel" fx:id="btnCancel" layoutX="100.0" layoutY="414.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="300.0" text="취소">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <TextField id="loginid" fx:id="txtId" focusTraversable="false" layoutX="100.0" layoutY="184.0" prefHeight="34.0" prefWidth="300.0" promptText="아이디 입력">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <PasswordField id="loginpw" fx:id="txtPw" layoutX="100.0" layoutY="240.0" prefHeight="34.0" prefWidth="300.0" promptText="비밀번호 입력">
+         <font>
+            <Font size="15.0" />
+         </font></PasswordField>
+   </children>
+</AnchorPane>

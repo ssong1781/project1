@@ -1,0 +1,66 @@
+AnchorPane{
+	-fx-background-color:skyblue;
+}
+
+#loginid{
+	-fx-background-color: white , skyblue , skyblue;
+	-fx-background-radius:0;
+    -fx-background-insets:0, 0 0 1 0;
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size:17;
+    -fx-prompt-text-fill:white;
+}
+
+/*
+ * #loginid:focused {
+    -fx-background-color: white , skyblue , skyblue;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size:17;
+}
+ */
+#loginpw{
+	-fx-background-color: white , skyblue , skyblue;
+	-fx-background-radius:0;
+    -fx-background-insets:0, 0 0 1 0;
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size:17;
+    -fx-prompt-text-fill:white;
+}
+/*
+#loginpw:focused {
+    -fx-background-color: white , skyblue , skyblue;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size:17;
+}
+ */
+#loginbtn{
+	-fx-background-radius:15;
+	-fx-background-color:skyblue ;
+	-fx-border-radius:15;
+	-fx-border-color:white ;
+	-fx-text-fill:white;
+}
+
+#joinbtn{
+	-fx-background-radius:15;
+	-fx-background-color:skyblue ;
+	-fx-border-radius:15;
+	-fx-border-color:white ;
+	-fx-text-fill:white;
+}
+
+#cancel{
+	-fx-background-radius:15;
+	-fx-background-color:skyblue ;
+	-fx-border-radius:15;
+	-fx-border-color:white ;
+	-fx-text-fill:white;
+}
+
+
